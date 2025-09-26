@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: b2b-backend
+    env: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm run start
+    plan: free
+    envVars:
+      - key: PORT
+        value: 9000

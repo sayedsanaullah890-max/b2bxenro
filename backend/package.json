@@ -1,0 +1,14 @@
+{
+  "name": "b2b-backend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "migrations": "echo \"(placeholder) run migrations here\""
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
